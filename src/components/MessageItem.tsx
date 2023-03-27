@@ -129,7 +129,7 @@ export default (props: Props) => {
         </Show>
       </div>
       <div
-        class="message prose prose-slate dark:prose-invert dark:text-slate break-words overflow-hidden"
+        class="message prose-slate dark:prose-invert dark:text-slate break-words overflow-hidden"
         innerHTML={md
           .render(props.message.content)
           .replace(
