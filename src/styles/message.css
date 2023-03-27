@@ -44,6 +44,7 @@
   --un-prose-invert-links: var(--c-text);
   --un-prose-invert-code: var(--c-text);
   --un-prose-invert-body: var(--c-text);
+  width: 100% ;
 }
 
 .message a {
